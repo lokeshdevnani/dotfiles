@@ -22,3 +22,6 @@ alias run_profiler="zmodload zsh/zprof; source ~/.zshrc; zprof | less"
 # Profiles zsh speed - Lokesh. Basic time profiling
 # https://blog.jonlu.ca/posts/speeding-up-zsh
 alias shell_speed='for i in $(seq 1 10); do /usr/bin/time $SHELL -i -c exit; done'
+
+# Go to master with fresh state
+alias gfresh='gcm; gf upstream; grhh upstream/master'
