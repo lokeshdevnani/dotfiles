@@ -10,6 +10,8 @@ alias spec='rspec "$(git diff --name-only --cached | grep -i '_spec.rb')" -fd'
 alias gssh='bash "$ADWYZE_REPO_HOME/../devops/scripts/gssh.sh"'
 
 alias k='k8s -e prod'
+WD=$ADWYZE_REPO_HOME
+alias wd="cd $WD"
 
 source "${ADWYZE_REPO_HOME}/scripts/dev/kubectl_aliases.sh"
 
