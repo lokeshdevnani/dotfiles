@@ -99,3 +99,4 @@ zstyle ':bracketed-paste-magic' active-widgets '.self-*'
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+export GOPATH=$HOME/dev/go-workspace

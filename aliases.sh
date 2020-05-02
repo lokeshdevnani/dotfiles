@@ -25,3 +25,6 @@ alias shell_speed='for i in $(seq 1 10); do /usr/bin/time $SHELL -i -c exit; don
 
 # Go to master with fresh state
 alias gfresh='gcm; gf upstream; grhh upstream/master'
+
+alias bts_on='blueutil --connect f8-df-15-d0-08-b4'
+alias bts_off='blueutil --disconnect f8-df-15-d0-08-b4'

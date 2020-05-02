@@ -1,5 +1,6 @@
 plugins=(
   
+  kubectl
   # adds a bunch of git aliases. See aliases here. https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git . Repo here https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git
   git 
 
