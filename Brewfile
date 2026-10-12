@@ -9,7 +9,7 @@ brew "zoxide"
 brew "atuin"
 brew "eza"
 brew "fd"
-brew "ripgrep"
+brew "ripgrep"   # Intel Macs: Homebrew has no prebuilt packages anymore; grab the release from github.com/BurntSushi/ripgrep into ~/.local/bin
 brew "bat"
 brew "jq"
 brew "htop"
