@@ -18,6 +18,6 @@ git clone git@github.com:lokeshdevnani/dotfiles.git ~/dotfiles
 | `plugins.zsh`, `options.zsh`, `aliases.sh`, `functions.sh`, `tools.zsh`, `terminal.zsh` | sourced by `zshrc` |
 | `Brewfile` | `brew bundle` |
 
-Keyboard shortcuts: `kitty/SHORTCUTS.md`.
+Keyboard shortcuts: `kitty/SHORTCUTS.md`. How the shell tools (atuin, zoxide, fzf, rg, fd, eza) work: `TOOLS.md`.
 
 Private, machine-specific shell config goes in `~/.zshrc.local` (not in git).

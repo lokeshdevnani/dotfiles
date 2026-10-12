@@ -22,12 +22,3 @@ if command -v eza >/dev/null; then
   alias ll='eza -lah --git --icons --group-directories-first'
   alias lt='eza --tree --level=2 --icons --git-ignore'
 fi
-
-# kubectl: generating its completion costs ~70ms, so load it on first use
-if command -v kubectl >/dev/null; then
-  kubectl() {
-    unfunction kubectl
-    source <(command kubectl completion zsh)
-    kubectl "$@"
-  }
-fi
