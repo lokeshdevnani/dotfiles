@@ -15,7 +15,6 @@ link() {  # link SOURCE DEST: back up a real file at DEST, then symlink it to SO
 link "$DOT/zshrc"                ~/.zshrc
 link "$DOT/kitty/kitty.conf"     ~/.config/kitty/kitty.conf
 link "$DOT/kitty/open-path.sh"   ~/.config/kitty/open-path.sh
-link "$DOT/kitty/SHORTCUTS.md"   ~/.config/kitty/SHORTCUTS.md
 link "$DOT/herdr/config.toml"    ~/.config/herdr/config.toml
 [ "${1:-}" = "links" ] && exit 0
 

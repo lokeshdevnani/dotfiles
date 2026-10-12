@@ -13,11 +13,11 @@ git clone git@github.com:lokeshdevnani/dotfiles.git ~/dotfiles
 | File | Linked to / sourced from |
 |---|---|
 | `zshrc` | `~/.zshrc` |
-| `kitty/kitty.conf`, `kitty/open-path.sh`, `kitty/SHORTCUTS.md` | `~/.config/kitty/` |
+| `kitty/kitty.conf`, `kitty/open-path.sh` | `~/.config/kitty/` |
 | `herdr/config.toml` | `~/.config/herdr/config.toml` |
 | `plugins.zsh`, `options.zsh`, `aliases.sh`, `functions.sh`, `tools.zsh`, `terminal.zsh` | sourced by `zshrc` |
 | `Brewfile` | `brew bundle` |
 
-Keyboard shortcuts: `kitty/SHORTCUTS.md`. How the shell tools (atuin, zoxide, fzf, rg, fd, eza) work: `TOOLS.md`.
+Shortcuts and how the shell tools (atuin, zoxide, fzf, rg, fd, eza) work: `terminal-productivity-cheatsheet.md`.
 
 Private, machine-specific shell config goes in `~/.zshrc.local` (not in git).
