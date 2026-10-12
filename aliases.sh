@@ -3,8 +3,8 @@
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume output volume 100'"
 
-# Lock the screen (when going AFK)
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+# Sleep the display (locks if "require password" is set to immediately)
+alias afk="pmset displaysleepnow"
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec ${SHELL} -l"
@@ -25,6 +25,3 @@ alias shell_speed='for i in $(seq 1 10); do /usr/bin/time $SHELL -i -c exit; don
 
 # Go to master with fresh state
 alias gfresh='gcm; gf upstream; grhh upstream/master'
-
-alias bts_on='blueutil --connect f8-df-15-d0-08-b4'
-alias bts_off='blueutil --disconnect f8-df-15-d0-08-b4'

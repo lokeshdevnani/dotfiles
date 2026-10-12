@@ -75,17 +75,6 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Gcloud completion
-
-GCLOUD_PATH='/Users/lokeshdevnani/Downloads/google-cloud-sdk'
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f "${GCLOUD_PATH}/path.zsh.inc" ]; then source "${GCLOUD_PATH}/path.zsh.inc"; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f "${GCLOUD_PATH}/completion.zsh.inc" ]; then source "${GCLOUD_PATH}/completion.zsh.inc"; fi
-
-
 # Other
 setopt prompt_subst
 
