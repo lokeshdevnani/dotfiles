@@ -43,7 +43,6 @@ cask "gcloud-cli"
 cask "ngrok"
 
 # Installed on the main Mac but not tracked here (old projects / one-offs):
-#   minikube jenv openjdk@17 postgresql@14 libpq hub the_silver_searcher
-#   chrome-cli cowsay fx ffmpeg vips go cmake ninja automake binaryen asciinema agg
+#   postgresql@14 libpq ffmpeg vips go cmake ninja automake binaryen asciinema agg
 #   libimobiledevice zlib
-#   casks: virtualbox minikube chromedriver android-commandlinetools rar polyphone codex
+#   casks: virtualbox chromedriver android-commandlinetools rar polyphone codex
